@@ -1,18 +1,4 @@
-# SerialPortWatcher
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-Detects serial port connection and disconnection events in Windows using WMI (Windows Management Instrumentation). This library monitors serial port availability in real-time, enabling dynamic response to new port connections and disconnections.
-
-## Installation
-Install the NuGet package from [here](https://www.nuget.org/packages/SerialPortWatcher).
-
-## Usage/Examples
-
-Here's an example of how to use `SerialPortWatcher` in your application:
-
-```cs
-namespace SerialPortWatcher.Example
+﻿namespace SerialPortWatcher.Example
 {
     internal class Program
     {
@@ -40,4 +26,3 @@ namespace SerialPortWatcher.Example
         }
     }
 }
-```
